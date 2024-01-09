@@ -1,0 +1,44 @@
+#root {
+  width:100%;
+  height:100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#root .posts {
+  background-color: #efefef;
+}
+
+#root .posts ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+  padding: 1rem;
+}
+
+#root .posts ul li{
+  background-color: white;
+  padding:1rem;
+  text-align: center;
+}
+
+
+
+#root .add-post {
+  padding:1rem;
+  background-color: #efefef;
+}
+
+#root .add-post form {
+  background-color:white;
+  padding:1rem;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+#root .add-post button{
+  width:5rem;
+}
